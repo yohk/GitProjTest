@@ -17,6 +17,8 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
+	PWM_Start();
+	
     for(;;)
     {
         /* Place your application code here. */
